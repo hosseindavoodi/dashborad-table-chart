@@ -23,7 +23,7 @@ const DashboardTable = ({ tableData }: DashboardTableProps) => {
 
   return (
     <>
-      <div className="-m-1.5 overflow-x-auto w-[800px]">
+      <div className="-m-1.5 overflow-x-auto w-full max-w-[700px] my-4">
         <div className="p-1.5 min-w-full inline-block align-middle">
           <div className="rounded-lg overflow-hidden">
             <table className="min-w-full bg-white">
